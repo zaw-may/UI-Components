@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Alert Dialog</title>
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    </head>
+    <body class = "bg-gray-300 flex items-center justify-center min-h-screen">
+        <div class = "mx-auto px-4">
+            <div class = "bg-white px-4 pb-4 pt-5 max-w-md mx-auto rounded-lg">
+                <div class = "mt-3">
+                    <h3 class = "text-lg font-semibold leading-7">
+                        Are you sure absolutely sure?
+                    </h3>
+                    <div class = "mt-2">
+                        <p class = "text-base text-gray-700"> 
+                            This action cannot be undone. This will permanently delete your account and remove your data from our servers.
+                        </p>
+                    </div>
+                </div>
+                <div class = "px-4 py-3 flex flex-col md:flex-row md:justify-end">
+                    <button class = "mt-3 md:mt-0 md:ml-3 inline-flex w-full md:w-auto justify-center rounded-md px-3 py-2 text-sm font-semibold border border-black shadow-sm hover:bg-gray-200 hover:border-gray-500">
+                        Cancel
+                    </button>
+                    <button class = "mt-3 md:mt-0 md:ml-3 inline-flex w-full md:w-auto justify-center rounded-md bg-red-600 text-white px-3 py-2 text-sm font-semibold border border-black shadow-sm hover:bg-red-700 hover:border-red-800">
+                        Continue
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
