@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Accordion</title>
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    </head>
+    <body class = "bg-gray-300 flex items-center justify-center min-h-screen">
+        <div class = "accordion container mx-auto px-4">
+            <div class = "grid grid-rows-2 w-full mx-auto gap-2">
+                <div class = "accordion-item flex flex-col justify-center bg-white py-2 px-4 gap-2 border-b border-neutral-300">
+                    <button class = "accordion-title flex justify-between">
+                        <span class = "font-semibold">Is it accessible?</span>
+                        <span class = "arrow">&#9660;</span>
+                    </button>
+                    <div class = "accordion-content hidden">
+                        <!--  -->
+                    </div>
+                </div>
+                <div class = "accordion-item flex flex-col justify-center bg-white py-2 px-4 gap-2 border-b border-neutral-300">
+                    <button class = "accordion-title flex justify-between">
+                        <span class = "font-semibold">Is it accessible?</span>
+                        <span class = "arrow">&#9650;</span>
+                    </button>
+                    <div class = "accordion-content">
+                        Yes. It adheres to the WAI-ARIA design pattern.
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </body>
+</html>
