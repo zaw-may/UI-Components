@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Combo Box</title>
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    </head>
+    <body class = "bg-gray-300 flex items-center justify-center min-h-screen">
+        <div class = "mx-auto px-4">
+            <div class = "relative">
+                <div class = "bg-white flex items-center justify-center p-2 gap-3 rounded-lg border border-gray-400 hover:border-gray-500 hover:bg-gray-50 cursor-pointer shadow-sm leading-tight">
+                    <span class = "text-base font-medium">Select Fruits</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" />
+                    </svg>
+                </div>
+                <div class = "bg-white absolute mt-1 w-full rounded-lg border border-gray-400">
+                    <div class = "flex items-center justify-between text-base p-2 font-normal rounded-lg hover:bg-gray-50">
+                        <span>Apple</span>
+                        <span class="pointer-events-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                            </svg>
+                        </span>
+                    </div>                     
+                    <div class = "text-base p-2 font-normal rounded-lg hover:bg-gray-50">Orange</div>
+                    <div class = "text-base p-2 font-normal rounded-lg hover:bg-gray-50">Berry</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
