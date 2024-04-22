@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, intial-scale = 1.0">
+        <title>Radio Button</title>
+        <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    </head>
+    <body class = "bg-gray-300 flex items-center justify-center min-h-screen">
+        <div class = "mx-auto px-4 bg-white rounded-md p-2">         
+            <div class = "flex items-center space-x-4 m-2">
+                <input type = "radio" id = "option1-checked" name = "radio-group" class = "form-radio absolute opacity-0" checked>
+                <div class="relative flex items-center">
+                  <div class = "h-4 w-4 rounded-full bg-white border border-black flex justify-center items-center">
+                    <div class = "h-2 w-2 rounded-full bg-black"></div>
+                  </div>
+                  <label for = "option1-checked" class = "ml-2 text-base">Option 1</label>
+                </div>
+            </div>
+            
+            <div class="flex items-center space-x-4 m-2">
+                <input type = "radio" id = "option2-unchecked" name = "radio-group" class = "form-radio absolute opacity-0">
+                <div class = "relative flex items-center">
+                  <div class = "h-4 w-4 rounded-full bg-white border border-black flex justify-center items-center">
+                    <div class = "h-2 w-2 rounded-full bg-white"></div>
+                  </div>
+                  <label for = "option2-unchecked" class = "ml-2 text-bases">Option 2</label>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
